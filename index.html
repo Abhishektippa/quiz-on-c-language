@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuizMaster - C Language Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>QuizMaster: C Language Quiz</h1>
+
+    <div id="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+
+    <div id="timer">⏱️ 15s</div>
+
+    <div id="quiz">
+      <p id="question"></p>
+      <div id="options"></div>
+    </div>
+
+    <button id="nextBtn">Next</button>
+
+    <div id="result" class="hidden">
+      <h2>Your Final Score:</h2>
+      <p id="score"></p>
+      <button id="restartBtn">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
